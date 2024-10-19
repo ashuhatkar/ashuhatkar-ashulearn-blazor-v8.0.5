@@ -1,0 +1,11 @@
+﻿<button @onclick="Button_Clicked">Click me!</button>
+
+<span>@return_txt</span>
+
+@code {
+    string return_txt = string.Empty;
+    void Button_Clicked()
+    {
+        return_txt = "Button has been clicked!";
+    }
+}
